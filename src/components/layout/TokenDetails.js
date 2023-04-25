@@ -331,13 +331,13 @@ export default function TokenDetails() {
                 <div className="row mt-4 text-center justify-content-between">
                   <div className="col-6 col-sm-6 col-md-6 col-lg-6 pt-1 h6-font">
                     <p>
-                      <span>{balance}</span> ARBIDOGE
+                      <span>1000000000</span> ARBIDOGE
                     </p>
                     <p style={{fontWeight: "bold"}}>Balance</p>
                   </div>
                   <div className="col-6 col-sm-6 col-md-6 col-lg-6 pt-1 h6-font">
                     <p>
-                      <span>{rewards}</span> ARBIDOGE
+                      <span>1000000000</span> ARBIDOGE
                     </p>
                     <p style={{fontWeight: "bold"}}>Rewards</p>
                   </div>
