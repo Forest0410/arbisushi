@@ -333,13 +333,13 @@ export default function TokenDetails() {
                     <p>
                       <span>{balance}</span> ARBIDOGE
                     </p>
-                    <p>Balance</p>
+                    <p style={{fontWeight: "bold"}}>Balance</p>
                   </div>
                   <div className="col-6 col-sm-6 col-md-6 col-lg-6 pt-1 h6-font">
                     <p>
                       <span>{rewards}</span> ARBIDOGE
                     </p>
-                    <p>Rewards</p>
+                    <p style={{fontWeight: "bold"}}>Rewards</p>
                   </div>
                   <div className="col-12 col-sm-12 col-md-12">
                     <hr style={{borderTopColor: "white"}}></hr>
@@ -348,9 +348,9 @@ export default function TokenDetails() {
                     <p>
                       <span>{total}</span>
                     </p>
-                    <p>Referred</p>
+                    <p style={{fontWeight: "bold"}}>Referred</p>
                   </div>
-                  {isMobile == false && (
+                  {/* {isMobile == false && ( */}
                     <div className="col-6 col-sm-6 col-md-6 col-lg-6 justify-content-center pt-1">
                       <button
                         id="withdraw"
@@ -362,9 +362,9 @@ export default function TokenDetails() {
                         Withdraw
                       </button>
                     </div>
-                  )}
+                  {/* )} */}
                 </div>
-                {isMobile && (
+                {/* {isMobile && (
                   <div className="row mt-4 text-center justify-content-between">
                     <div className="col-12 pt-1">
                       <div className="row justify-content-center">
@@ -399,7 +399,7 @@ export default function TokenDetails() {
                       </div>
                     </div>
                   </div>
-                )}
+                )} */}
                 <div className="row mt-5 justify-content-between">
                   <div className="col-12">
                     <div className="row justify-content-between socialArray">
@@ -416,6 +416,8 @@ export default function TokenDetails() {
                           style={{
                             backgroundColor: "#8364E2",
                             color: "white",
+                            padding: "0.5rem 0.5rem",
+                            marginRight: "10px"
                           }}
                           disabled={invite == null ? false : invite.twitter}
                           onClick={() => handleSocial("twitter")}
@@ -440,6 +442,8 @@ export default function TokenDetails() {
                           style={{
                             backgroundColor: "#8364E2",
                             color: "white",
+                            padding: "0.5rem 0.5rem",
+                            marginRight: "10px"
                           }}
                           disabled={invite == null ? false : invite.retweet}
                           onClick={() => handleSocial("retweet")}
@@ -462,6 +466,8 @@ export default function TokenDetails() {
                           style={{
                             backgroundColor: "#8364E2",
                             color: "white",
+                            padding: "0.5rem 0.5rem",
+                            marginRight: "10px"
                           }}
                           onClick={() => handleSocial("discord")}
                           disabled={invite == null ? false : invite.discord}
