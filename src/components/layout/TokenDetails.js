@@ -5,7 +5,7 @@ import Modal from "react-bootstrap/Modal";
 import axios from "axios";
 
 export default function TokenDetails() {
-  const presaleAddress = "0xD08f26a6b816F5d48C04d358323b9Ec901587937";
+  const presaleAddress = "0x652890E8e90Ee6D1C335C74b533B0E04545A05BD";
   const search = useLocation().search;
   const navigate = useNavigate();
   const refcode = new URLSearchParams(search).get("ref");
@@ -354,7 +354,7 @@ export default function TokenDetails() {
                     <div className="col-6 col-sm-6 col-md-6 col-lg-6 justify-content-center pt-1">
                       <button
                         id="withdraw"
-                        data-address="0xD08f26a6b816F5d48C04d358323b9Ec901587937"
+                        data-address="0x652890E8e90Ee6D1C335C74b533B0E04545A05BD"
                         className="btn btn-size--sm"
                         style={{ backgroundColor: "#8364E2", color: "white" }}
                         onClick={handleWithdraw}
@@ -371,7 +371,7 @@ export default function TokenDetails() {
                         <div className="col-6 col-sm-6 col-md-6 col-lg-6">
                           <button
                             id="withdraw"
-                            data-address="0xD08f26a6b816F5d48C04d358323b9Ec901587937"
+                            data-address="0x652890E8e90Ee6D1C335C74b533B0E04545A05BD"
                             className="btn btn-size--sm"
                             style={{
                               backgroundColor: "#8364E2",
@@ -411,7 +411,7 @@ export default function TokenDetails() {
                       <div className="col-4" style={{ textAlign: "right" }}>
                         <button
                           id="withdraw"
-                          data-address="0xD08f26a6b816F5d48C04d358323b9Ec901587937"
+                          data-address="0x652890E8e90Ee6D1C335C74b533B0E04545A05BD"
                           className="btn btn-size--sm"
                           style={{
                             backgroundColor: "#8364E2",
@@ -437,7 +437,7 @@ export default function TokenDetails() {
                       <div className="col-4" style={{ textAlign: "right" }}>
                         <button
                           id="withdraw"
-                          data-address="0xD08f26a6b816F5d48C04d358323b9Ec901587937"
+                          data-address="0x652890E8e90Ee6D1C335C74b533B0E04545A05BD"
                           className="btn btn-size--sm"
                           style={{
                             backgroundColor: "#8364E2",
@@ -461,7 +461,7 @@ export default function TokenDetails() {
                       <div className="col-4" style={{ textAlign: "right" }}>
                         <button
                           id="withdraw"
-                          data-address="0xD08f26a6b816F5d48C04d358323b9Ec901587937"
+                          data-address="0x652890E8e90Ee6D1C335C74b533B0E04545A05BD"
                           className="btn btn-size--sm"
                           style={{
                             backgroundColor: "#8364E2",

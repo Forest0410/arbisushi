@@ -8,7 +8,7 @@ export default function Hero() {
 
   useEffect(() => {
     let timerInterval = null;
-    var endTime = new Date("30 April 2023 10:00:00 GMT+00:00");
+    var endTime = new Date("30 June 2023 10:00:00 GMT+00:00");
     var end_ts = Math.floor(Date.parse(endTime) / 1000);
     var prev_days = 0;
     var prev_hours = 0;
